@@ -1,0 +1,60 @@
+* {
+    font-family: 'Mukta Mahee', sans-serif;
+    margin: 10px;
+}
+
+/* .icons {
+    position: absolute;  
+} */
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: large;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.intro-container{
+    inline-size: 600px;
+    position: relative;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    overflow-wrap: break-word;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.projects-container {
+    inline-size: 600px;
+    position: relative;
+    margin-left: 100px;
+    overflow-wrap: break-word;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.contact-container {
+    inline-size: 600px;
+    position: relative;
+    margin-left: 100px;
+    overflow-wrap: break-word;
+}
+
+
