@@ -40,19 +40,23 @@ a:visited {
     position: relative;
     margin-top: 150px;
     margin-left: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 170px;
     overflow-wrap: break-word;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 80px;
+}
+
+p {
+    font-size: large;
 }
 
 .projects-container {
     inline-size: 600px;
     position: relative;
     margin-left: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 170px;
     overflow-wrap: break-word;
 }
 
