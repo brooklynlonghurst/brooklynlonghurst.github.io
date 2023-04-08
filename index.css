@@ -1,6 +1,11 @@
 * {
     font-family: 'Mukta Mahee', sans-serif;
     background-color: white;
+    border-radius: 25px;
+}
+
+html {
+    background-color: plum;
 }
 
 body {
