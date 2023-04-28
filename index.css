@@ -59,13 +59,13 @@ a:visited {
 
 .img-container {
     /* margin-left: 200px; */
-    margin-right: 5rem;
+    /* margin-right: 5rem; */
     margin-bottom: 2rem;
- 
 }
 
 .self-img {
-    width: 25rem;
+    box-shadow: 5px 5px 5px 5px rgb(244, 214, 244);
+    width: 30rem;
 }
 
 h1 {
@@ -123,4 +123,26 @@ h2 {
     margin-left: 10px;
     margin-top: 60px;
 }
+
+@media only screen and (max-width: 1460px){
+    .self-img {
+        width: 25rem;
+    }
+}
+
+
+@media only screen and (max-width: 1200px){
+    .self-img {
+        width: 15rem;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .self-img {
+        width: 10rem;
+    }
+}
+
+
+
 
