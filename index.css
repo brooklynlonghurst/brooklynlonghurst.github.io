@@ -14,15 +14,14 @@ body {
 
 /* span, h1, h2, h3, p {
     background-color: transparent;
-    z-index: 99;
-}
+} */
 
-.rough-annotation {
+/* .rough-annotation {
     visibility: hidden;
     z-index: 0;
     width: 0 !;
     height: 0 !important;
-} */
+}  */
 
 .header-icons {
     position: absolute; 
