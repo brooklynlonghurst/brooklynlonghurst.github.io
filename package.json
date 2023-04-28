@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-rough-notation": "^1.0.3",
+    "rough-notation": "^0.5.1"
+  }
+}
