@@ -5,7 +5,7 @@
 }
 
 html {
-    background-color: plum;
+    background-color: rgb(244, 214, 244);
 }
 
 body {
@@ -15,6 +15,7 @@ body {
 .header-icons {
     position: absolute; 
     margin-left: 100px; 
+    margin-top: 4px;
 }
 
 a {
@@ -40,13 +41,31 @@ a:visited {
     margin-right: 10px;
 }
 
+.about-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35rem;
+}
+
 .intro-container{
-    inline-size: 600px;
+    /* inline-size: 400px; */
     position: relative;
     margin-top: 150px;
     margin-left: 100px;
     margin-bottom: 170px;
     overflow-wrap: break-word;
+}
+
+.img-container {
+    /* margin-left: 200px; */
+    margin-right: 6.5rem;
+ 
+}
+
+.self-img {
+    width: 30rem;
+    height: 40rem;
 }
 
 h1 {
