@@ -8,3 +8,27 @@
 
 // const ag = annotationGroup([a1, a2, a3, a4]);
 // ag.show();
+
+
+
+
+let modal = document.getElementById("gmail-popup")
+let icon = document.getElementById("contact-modal")
+let span = document.getElementsByClassName("close")[0]
+
+icon.onclick = function() {
+    // const signUpMessage = `<h3>Thanks for signing up, ${signUpName.value}!</h3>`
+    // document.getElementById('signUpModal').innerHTML = signUpMessage
+   
+    modal.style.display = "block";
+}
+  
+span.onclick = function() {
+    modal.style.display = "none";
+}
+  
+window.onclick = function(event) {
+    if (event.target === modal) {
+      modal.style.display = "none";
+    }
+}
