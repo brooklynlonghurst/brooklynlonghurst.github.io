@@ -29,6 +29,8 @@ body {
     margin-top: 4px;
 }
 
+
+
 a {
     text-decoration: none;
     color: black;
@@ -135,6 +137,17 @@ h2 {
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 60px;
+}
+
+.gmail-icon {
+    width: 50px;
+    height: 40px;
+}
+
+.linkedin-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
 }
 
 @media only screen and (max-width: 1660px){
