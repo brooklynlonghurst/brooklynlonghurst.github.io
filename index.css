@@ -147,6 +147,7 @@ h2 {
 .gmail-icon {
     width: 60px;
     height: 45px;
+    cursor: pointer;
 }
 
 .linkedin-icon {
@@ -154,6 +155,7 @@ h2 {
     height: 40px;
     border-radius: 12px;
     margin-left: 5px;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1660px){
