@@ -141,6 +141,7 @@ h2 {
 
 .contact-icons {
     display: flex;
+    flex-direction: row;
 }
 
 .gmail-icon {
